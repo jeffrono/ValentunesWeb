@@ -43,10 +43,15 @@ print '<script type="text/javascript">var job_id = ' . $ticket . '</script>';
 		<li>
 			<span style="font: MyUnderwoodRegular; font-size: 30px;">
 			<input type="checkbox" name="track" value="idnum"> 
-			<a href="test"><img src="../imgs/play.gif" width="20px"></a> 
+			
+			<object type="application/x-shockwave-flash" data="../button/musicplayer.swf?&song_url=http://skateboardmag.ru/uploads/music/Fallen_Ride_the_Sky/09-Billy_Marks.mp3&" width="17" height="17">
+			<param name="movie" value="../button/musicplayer.swf?&song_url=http://skateboardmag.ru/uploads/music/Fallen_Ride_the_Sky/09-Billy_Marks.mp3&" />
+			<img src="noflash.gif" width="17" height="17" alt="" />
+			</object>
+			
+			
 			Artist - Track
 			<span>searchedterm</span>
-		
 		
 	</ul>
 <input type="submit" name="get_url" value="URL Link" class="btn" />
