@@ -48,6 +48,9 @@ label {
 	#color: #B4886B;
 	font-family:Impact_Label, serif;
 	font-size:42px;
+	display: block;
+    padding-left: 15px;
+    text-indent: -15px;
 }
 
 label:after { content: ":" }
@@ -61,6 +64,8 @@ label:after { content: ":" }
 	text-indent:10px;
 	margin-top:60px;
   }
+  #content ul li { list-style-type:none; }
+  
   .photo{
 	padding: 5px;
 	padding-bottom: 30px;
@@ -76,25 +81,6 @@ label:after { content: ":" }
 	box-shadow: 0px 0px 5px #444; /* Opera 10.5, IE 9.0 */
   }
   
-  #pic0{
-	left:450px; top:30px;
-	#width:25px;
-  }
-  #pic1{
-	left:600px; top:320px;
-  }
-  #pic2{
-	left:470px; top: 666px;
-  }
-  #pic3{
-	left:590px; top: 1050px;
-  }
-  #pic4{
-	left:666px; top: 1501px;
-  }
-  #pic5{
-	left:490px; top: 901px;
-  }
   @font-face {
 	font-family: 'MyUnderwoodRegular';
 	src: url('../fonts/MyUnderwood-webfont.eot');
@@ -116,54 +102,3 @@ label:after { content: ":" }
 	font-weight: normal;
 	font-style: normal;
   }
-  
-  #license {
-	font-size: 0.8em;
-	/*position:absolute;*/
-	/*float:right;*/
-	width:200px;
-	bottom: 0px;
-	left: 150px;
-	-webkit-transform: rotate(40deg);
-	-moz-transform: rotate(40deg);
-	display:block;
-	padding:40px;
-	margin:40px;
-	color:#fff;
-	background:#525252;
-  }
-  #backlink{
-	background: #666;
-	z-index:7;
-	position:absolute;
-	right: -150px;
-	top: 100px;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	#text-align: center;
-	padding:20px;
-	padding-right:150px;
-	padding-left:150px;
-  }
-  #backlink a{
-	font-size: 20px;
-	color: #fff;
-	text-shadow: 0px 0px 8px #fff;
-	text-decoration: none;
-  }
-  #backlink a:hover{
-	text-decoration: underline;
-	text-shadow: 0px 0px 12px #fff;
-  }
-  #content a{
-	text-decoration:none;
-	color: #000;
-  }
-  #content a:hover{
-	text-decoration: none;
-	color: #000;
-	text-shadow: 0px 0px 50px #000;
-  }
-
-
-
