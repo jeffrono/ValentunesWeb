@@ -44,6 +44,14 @@ input.btn {
   font-size:20px;
 }
 
+#message {
+	font-family: CutiePop;
+	font-size: 30px;
+	text-indent:10px;
+	margin-top:10px;
+}
+
+
 label {
 	#color: #B4886B;
 	font-family:Impact_Label, serif;
@@ -65,24 +73,17 @@ label:after { content: ":" }
 	#margin-top:60px;
   }
   #content ul li { list-style-type:none; }
+
+  #header{
+	width: 800px;
+	font-family:MyUnderwoodRegular, serif;
+	font-size:26px;
+	text-indent:10px;
+  }
+
   
   img { border-style: none; }
-  
-  .photo{
-	padding: 5px;
-	padding-bottom: 30px;
-	background-color:white;
-	margin: 5px;
-	position:absolute;
-	border: 1px solid #666
-	-moz-border-radius: 10px; 
-	-webkit-border-radius: 10px; 
-	border-radius: 10px; 
-	-moz-box-shadow: 0px 0px 5px #444; /* FF3.5+ */
-	-webkit-box-shadow: 0px 0px 5px #444; /* Saf3.0+, Chrome */
-	box-shadow: 0px 0px 5px #444; /* Opera 10.5, IE 9.0 */
-  }
-  
+    
   @font-face {
 	font-family: 'MyUnderwoodRegular';
 	src: url('../fonts/MyUnderwood-webfont.eot');

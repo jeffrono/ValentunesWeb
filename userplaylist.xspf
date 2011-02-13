@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="0" xmlns="http://xspf.org/ns/0/">
+	<trackList>
+		<track>
+			<location>http://www.bigozine.com/TRK/LGmalta/LGmalta04.mp3</location>
+			<image>http://www.example.com/folder/album.jpg</image>
+			<annotation>Lady Gaga - Just Dance</annotation>
+		</track>
+		<track>
+			<location>http://rajraj.nu/~zatzy/audi/Britney_Spears-Blackout-2007-iTSBRiTNEYBiTCH/03-britney_spears-radar.mp3</location>
+			<annotation>Britney Spears - Radar</annotation>
+		</track>
+	</trackList>
+</playlist>
