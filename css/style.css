@@ -12,15 +12,15 @@ body {
 }
 
 input, textarea {
-	font-family: Cutie_Pop, serif;
-	margin-bottom: 20px;
+	font-family: CutiePop, serif;
+	#margin-bottom: 20px;
 	margin-top: 5px;
-	color:#050;
-	font-weight:bold;
-	font-size:20px;
-	background-color:#fed;
-	border: 1px solid;
-	border-color: Black;
+	color:Black;
+	#font-weight:bold;
+	font-size:32px;
+	background-color:Beige;
+	border: 0px solid;
+	border-color: Gray;
 }
 
 
@@ -29,13 +29,12 @@ form#song-filter{
 }
 
 input.btn {
-	color:Black;
+	color:White;
 	font-weight:bold;
 	font-size:40px;
-	#align: middle;
-	background-color:Beige;
+	background-color:Red;
 	border: 3px solid;
-	border-color: Red;
+	border-color: Black;
 }
 
 .small {
