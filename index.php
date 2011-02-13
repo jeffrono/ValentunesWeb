@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>
-  Valentun.es | Passionate hackers
+  Valentun.es | Send love with music (passionate hackers?)
 </title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -14,8 +14,7 @@
   <p>Create a personalized valentunes gift for your beloved...</p>
 </div>
 
-
-<div id="content">
+<div id="content" style="background-image: url(../imgs/heart_border2.png); background-repeat:no-repeat; width: 600px;">
   <h1>Valentunes</h1>
   <form method="POST" action="process_request.php">    
     <div>Recipients name: </div><input type="text" name="name"/>

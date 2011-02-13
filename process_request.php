@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html>
 <head>
 <title>
@@ -19,8 +22,7 @@ $_SESSION['valentunes']['POST'] = $_POST;
 // send info to backend
 $remote = new RemoteLogic();
 $ticket = $remote->create($_POST['name'], $_POST['interests'], $_POST['description']);
-$_SESSION['ticket']; // store session
-
+//$_SESSION['ticket']; // store session
 
 print '<script type="text/javascript">var job_id = ' . $ticket . '</script>';
 ?>
